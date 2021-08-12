@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -23,12 +24,15 @@ module.exports = {
     ],
   },
   plugins: [
-    new HtmlWebPackPlugin(
-      {
-        inject: true,
-        template: "./public/index.html",
-        filename: "./index.html",
+    new HtmlWebPackPlugin({
+      inject: true,
+      template: "./public/index.html",
+      filename: "./index.html",
+    }),
+    new CopyWebpackPlugin([{
+        from: "./src/styles/style.css",
+        to: "",
       },
-    ),
+    ]),
   ],
 };
