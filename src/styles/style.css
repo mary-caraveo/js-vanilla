@@ -93,9 +93,8 @@ body {
   justify-content: space-between;
 }
 
-.characters-item a {
+.character-item a {
   text-decoration: none;
-  color: #026C86;
 }
 
 @keyframes fade {
@@ -119,4 +118,21 @@ body {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+.home-image {
+  border-radius: 8%;
+  border: 3px solid black;
+  box-shadow: 5px 3px 0px 5px  rgba(0, 0, 0, 0.9);
+}
+
+.name-image {
+  background-color: #011b03;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.9);
+  border: 1px solid #122d15;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
 }
