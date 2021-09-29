@@ -48,6 +48,8 @@ body {
   display: block;
   animation-duration: 2s;
   animation-name: fade;
+  background-color: honeydew;
+  box-shadow: inset 0px 1px 20px 0px #33dccc;
 }
 
 .characters-card img {
