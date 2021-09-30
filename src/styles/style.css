@@ -14,7 +14,8 @@ body {
   align-items: center;
 }
 
-.headers a {
+.headers a,
+.header-nav a {
   font-size: 28px;
   text-decoration: none;
   color: #15302c;
