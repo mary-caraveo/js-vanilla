@@ -10,15 +10,17 @@ body {
 
 .header-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+  margin-bottom: 15px;
+  background-color: #302E43;
 }
 
-.headers a,
-.header-nav a {
+.headers a {
   font-size: 28px;
   text-decoration: none;
-  color: #15302c;
+  color: white;
+  margin: 25px;
 }
 
 .headers h1:hover {
@@ -26,7 +28,7 @@ body {
 }
 
 .main {
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
   grid-template-columns: minmax(auto, 976px);
   display: grid;
   justify-content: center;
@@ -144,13 +146,12 @@ body {
 }
 
 .home-image {
-  border-radius: 8%;
-  border: 3px solid black;
+  border-radius: 5%;
   box-shadow: 5px 3px 0px 5px rgba(0, 0, 0, 0.9);
 }
 
 .name-image {
-  background-color: #011b03;
+  background-color: #302E43;
   box-shadow: 4px 4px rgba(0, 0, 0, 0.9);
   border: 1px solid #122d15;
   border-radius: 15px;
