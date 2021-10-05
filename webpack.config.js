@@ -29,8 +29,13 @@ module.exports = {
       template: "./public/index.html",
       filename: "./index.html",
     }),
-    new CopyWebpackPlugin([{
+    new CopyWebpackPlugin([
+      {
         from: "./src/styles/style.css",
+        to: "",
+      },
+      {
+        from: "./src/styles/error404.css",
         to: "",
       },
     ]),

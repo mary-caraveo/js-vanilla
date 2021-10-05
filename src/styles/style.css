@@ -12,18 +12,19 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   background-color: #302E43;
+  height: 60px;
 }
 
 .headers a {
-  font-size: 28px;
+  font-size: 24px;
   text-decoration: none;
   color: white;
-  margin: 25px;
+  margin: 0px 25px;
 }
 
-.headers h1:hover {
+.headers a:hover {
   transform: scale(1.1);
 }
 
