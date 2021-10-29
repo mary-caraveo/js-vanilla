@@ -1,14 +1,14 @@
 const error404 = () => {
   const view = `
-  <section class="not_found">
+<div class="container"> 
   <h1>Not found</h1>
-  </section>
-  <section class="not_found">
-    <div class="c1"></div>
-    <div class="c2"></div>
-    <div class="c3"></div>
-    <div class="c4"></div>
-  </section>
+  <div class="crazy-balls">
+    <div class="balls-1"></div>
+    <div class="balls-2"></div>
+    <div class="balls-3"></div>
+    <div class="balls-4"></div>
+  </div>
+</div>
   `;
   return view;
 };
