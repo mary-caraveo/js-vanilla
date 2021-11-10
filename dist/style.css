@@ -13,7 +13,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   margin-bottom: 30px;
-  background-color: #302E43;
+  background-color: #302e43;
   height: 60px;
 }
 
@@ -44,8 +44,8 @@ body {
 
 .characters-inner {
   grid-template-columns: 1fr 2fr;
-  grid-gap: 1.5rem;
-  grid-row-gap: 1.5em;
+  gap: 1.5rem;
+  row-gap: 1.5em;
   display: grid;
 }
 
@@ -152,7 +152,7 @@ body {
 }
 
 .name-image {
-  background-color: #302E43;
+  background-color: #302e43;
   box-shadow: 4px 4px rgba(0, 0, 0, 0.9);
   border: 1px solid #122d15;
   border-radius: 15px;
@@ -165,4 +165,24 @@ body {
 .name-image:hover {
   color: black;
   background-color: white;
+}
+
+@media (max-width: 575.98px) {
+  .main {
+    display: flex;
+  }
+
+  .characters {
+    grid-template-columns: 1fr;
+  }
+
+  .name-image {
+    padding: 10px 0;
+  }
+
+  .characters-inner {
+    grid-template-columns: 1fr;
+    gap: 0;
+    row-gap: 0;
+  }
 }
