@@ -15,7 +15,6 @@ body {
   width: 100%;
 }
 
-
 .container h1 {
   font-family: "Rammetto One", cursive;
   margin: 0;
@@ -23,13 +22,11 @@ body {
   letter-spacing: 20px;
   color: #6b566b;
   text-shadow: 0px 0px 0 #afc7b9, 1px 1px 0 #afc7b9, -2px -2px 0 #afc7b9,
-  -3px -3px 0 #afc7b9, -4px -4px 0 #afc7b9, -5px -5px 0 #fca89d,
-  -6px -6px 0 #fca89d, -7px -7px 0 #fca89d, -8px -8px 0 #fac7b4,
-  -9px -9px 0 #fac7b4, -10px -10px 0 #fac7b4, -11px -11px 0 #fac7b4,
-  -12px -12px 0 #ffe1c9, -13px -13px 0 #ffe1c9, -14px -14px 0 #ffe1c9,
-  -16px -16px 0 hsla(0, 0%, 0%, 0.08), 0 8px 8px hsla(0, 0%, 0%, 0.15);
-  transform: rotate(180deg);
-  animation: notFound 6s forwards infinite 0s;
+    -3px -3px 0 #afc7b9, -4px -4px 0 #afc7b9, -5px -5px 0 #fca89d,
+    -6px -6px 0 #fca89d, -7px -7px 0 #fca89d, -8px -8px 0 #fac7b4,
+    -9px -9px 0 #fac7b4, -10px -10px 0 #fac7b4, -11px -11px 0 #fac7b4,
+    -12px -12px 0 #ffe1c9, -13px -13px 0 #ffe1c9, -14px -14px 0 #ffe1c9,
+    -16px -16px 0 hsla(0, 0%, 0%, 0.08), 0 8px 8px hsla(0, 0%, 0%, 0.15);
 }
 
 .crazy-balls {
@@ -202,18 +199,6 @@ body {
   }
   100% {
     transform: scale(0.5);
-  }
-}
-
-@keyframes notFound {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(15deg);
-  }
-  100% {
-    transform: rotate(0deg);
   }
 }
 
